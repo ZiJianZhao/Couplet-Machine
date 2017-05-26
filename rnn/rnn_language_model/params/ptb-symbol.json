@@ -1,0 +1,144 @@
+{
+  "nodes": [
+    {
+      "op": "null", 
+      "name": "data", 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "embed_weight", 
+      "inputs": []
+    }, 
+    {
+      "op": "Embedding", 
+      "name": "embed", 
+      "attr": {
+        "input_dim": "10001", 
+        "output_dim": "300"
+      }, 
+      "inputs": [[0, 0, 0], [1, 0, 0]]
+    }, 
+    {
+      "op": "SwapAxis", 
+      "name": "swapaxis4", 
+      "attr": {
+        "dim1": "0", 
+        "dim2": "1"
+      }, 
+      "inputs": [[2, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "lstm_parameters", 
+      "attr": {"__init__": "[\"fusedrnn\", {\"bidirectional\": false, \"num_hidden\": 300, \"init\": \"[\\\"xavier\\\", {\\\"rnd_type\\\": \\\"uniform\\\", \\\"magnitude\\\": 2.34, \\\"factor_type\\\": \\\"in\\\"}]\", \"mode\": \"lstm\", \"num_layers\": 1}]"}, 
+      "inputs": []
+    }, 
+    {
+      "op": "_zeros", 
+      "name": "lstm_begin_state_0", 
+      "attr": {
+        "dtype": "float32", 
+        "shape": "(1, 0, 300)"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "_zeros", 
+      "name": "lstm_begin_state_1", 
+      "attr": {
+        "dtype": "float32", 
+        "shape": "(1, 0, 300)"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "RNN", 
+      "name": "lstm_rnn", 
+      "attr": {
+        "bidirectional": "False", 
+        "mode": "lstm", 
+        "num_layers": "1", 
+        "p": "0.0", 
+        "state_outputs": "False", 
+        "state_size": "300"
+      }, 
+      "inputs": [[3, 0, 0], [4, 0, 0], [5, 0, 0], [6, 0, 0]]
+    }, 
+    {
+      "op": "SwapAxis", 
+      "name": "swapaxis5", 
+      "attr": {
+        "dim1": "0", 
+        "dim2": "1"
+      }, 
+      "inputs": [[7, 0, 0]]
+    }, 
+    {
+      "op": "Reshape", 
+      "name": "reshape4", 
+      "attr": {"shape": "(-1, 300)"}, 
+      "inputs": [[8, 0, 0]]
+    }, 
+    {
+      "op": "Dropout", 
+      "name": "dropout2", 
+      "attr": {"p": "0.2"}, 
+      "inputs": [[9, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "pred_bias", 
+      "attr": {"num_hidden": "10001"}, 
+      "inputs": []
+    }, 
+    {
+      "op": "FullyConnected", 
+      "name": "pred", 
+      "attr": {"num_hidden": "10001"}, 
+      "inputs": [[10, 0, 0], [1, 0, 0], [11, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "label", 
+      "inputs": []
+    }, 
+    {
+      "op": "Reshape", 
+      "name": "reshape5", 
+      "attr": {"shape": "(-1,)"}, 
+      "inputs": [[13, 0, 0]]
+    }, 
+    {
+      "op": "SoftmaxOutput", 
+      "name": "softmax", 
+      "attr": {
+        "ignore_label": "0", 
+        "use_ignore": "True"
+      }, 
+      "inputs": [[12, 0, 0], [14, 0, 0]]
+    }
+  ], 
+  "arg_nodes": [0, 1, 4, 11, 13], 
+  "node_row_ptr": [
+    0, 
+    1, 
+    2, 
+    3, 
+    4, 
+    5, 
+    6, 
+    7, 
+    8, 
+    9, 
+    10, 
+    12, 
+    13, 
+    14, 
+    15, 
+    16, 
+    17
+  ], 
+  "heads": [[15, 0, 0]], 
+  "attrs": {"mxnet_version": ["int", 904]}
+}

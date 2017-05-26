@@ -1,0 +1,75 @@
+Namespace(knowledge='view', mode='train', pos='vocab')
+Text2digit Preprocess Example:
+念 佛 自 然 得 见 佛 。 	=>	求 生 决 定 可 往 生 。
+[1609, 181, 4334, 3084, 1576, 4903, 181, 3] 	=>	[2660, 3355, 367, 1197, 606, 1562, 3355, 3]
+Text2digit Preprocess Example:
+彼 此 亡 家 国 。 	=>	东 西 役 梦 魂 。
+[1561, 2592, 86, 1215, 847, 3] 	=>	[24, 4899, 1559, 2428, 6121, 3]
+Text2digit Preprocess Example:
+念 佛 自 然 得 见 佛 。 	=>	求 生 决 定 可 往 生 。
+[18, 12, 16, 3, 18, 18, 12, 19] 	=>	[18, 12, 18, 18, 3, 18, 12, 19]
+Text2digit Preprocess Example:
+彼 此 亡 家 国 。 	=>	东 西 役 梦 魂 。
+[12, 16, 18, 12, 12, 19] 	=>	[12, 12, 12, 12, 12, 19]
+Text2digit Preprocess Example:
+念 佛 自 然 得 见 佛 。 	=>	求 生 决 定 可 往 生 。
+[2, 1, 2, 1, 1, 2, 1, 3] 	=>	[1, 1, 1, 2, 2, 2, 1, 3]
+Text2digit Preprocess Example:
+彼 此 亡 家 国 。 	=>	东 西 役 梦 魂 。
+[2, 2, 1, 1, 1, 3] 	=>	[1, 1, 2, 2, 1, 3]
+buckets:  [(9, 10), (17, 18), (31, 32)]
+buckets_count:  [60646, 10758, 3196]
+default_bucket_key:  (31, 32)
+buckets:  [(9, 10), (17, 18), (31, 32)]
+buckets_count:  [3195, 568, 163]
+default_bucket_key:  (31, 32)
+Namespace(knowledge='label', mode='train', pos='vocab')
+Text2digit Preprocess Example:
+念 佛 自 然 得 见 佛 。 	=>	求 生 决 定 可 往 生 。
+[1609, 181, 4334, 3084, 1576, 4903, 181, 3] 	=>	[2660, 3355, 367, 1197, 606, 1562, 3355, 3]
+Text2digit Preprocess Example:
+彼 此 亡 家 国 。 	=>	东 西 役 梦 魂 。
+[1561, 2592, 86, 1215, 847, 3] 	=>	[24, 4899, 1559, 2428, 6121, 3]
+Text2digit Preprocess Example:
+念 佛 自 然 得 见 佛 。 	=>	求 生 决 定 可 往 生 。
+[18, 12, 16, 3, 18, 18, 12, 19] 	=>	[18, 12, 18, 18, 3, 18, 12, 19]
+Text2digit Preprocess Example:
+彼 此 亡 家 国 。 	=>	东 西 役 梦 魂 。
+[12, 16, 18, 12, 12, 19] 	=>	[12, 12, 12, 12, 12, 19]
+Text2digit Preprocess Example:
+念 佛 自 然 得 见 佛 。 	=>	求 生 决 定 可 往 生 。
+[2, 1, 2, 1, 1, 2, 1, 3] 	=>	[1, 1, 1, 2, 2, 2, 1, 3]
+Text2digit Preprocess Example:
+彼 此 亡 家 国 。 	=>	东 西 役 梦 魂 。
+[2, 2, 1, 1, 1, 3] 	=>	[1, 1, 2, 2, 1, 3]
+buckets:  [(9, 10), (17, 18), (31, 32)]
+buckets_count:  [60646, 10758, 3196]
+default_bucket_key:  (31, 32)
+buckets:  [(9, 10), (17, 18), (31, 32)]
+buckets_count:  [3195, 568, 163]
+default_bucket_key:  (31, 32)
+Namespace(knowledge='view', mode='train', pos='vocab')
+Text2digit Preprocess Example:
+念 佛 自 然 得 见 佛 。 	=>	求 生 决 定 可 往 生 。
+[1609, 181, 4334, 3084, 1576, 4903, 181, 3] 	=>	[2660, 3355, 367, 1197, 606, 1562, 3355, 3]
+Text2digit Preprocess Example:
+彼 此 亡 家 国 。 	=>	东 西 役 梦 魂 。
+[1561, 2592, 86, 1215, 847, 3] 	=>	[24, 4899, 1559, 2428, 6121, 3]
+Text2digit Preprocess Example:
+念 佛 自 然 得 见 佛 。 	=>	求 生 决 定 可 往 生 。
+[18, 12, 16, 3, 18, 18, 12, 19] 	=>	[18, 12, 18, 18, 3, 18, 12, 19]
+Text2digit Preprocess Example:
+彼 此 亡 家 国 。 	=>	东 西 役 梦 魂 。
+[12, 16, 18, 12, 12, 19] 	=>	[12, 12, 12, 12, 12, 19]
+Text2digit Preprocess Example:
+念 佛 自 然 得 见 佛 。 	=>	求 生 决 定 可 往 生 。
+[2, 1, 2, 1, 1, 2, 1, 3] 	=>	[1, 1, 1, 2, 2, 2, 1, 3]
+Text2digit Preprocess Example:
+彼 此 亡 家 国 。 	=>	东 西 役 梦 魂 。
+[2, 2, 1, 1, 1, 3] 	=>	[1, 1, 2, 2, 1, 3]
+buckets:  [(9, 10), (17, 18), (31, 32)]
+buckets_count:  [60646, 10758, 3196]
+default_bucket_key:  (31, 32)
+buckets:  [(9, 10), (17, 18), (31, 32)]
+buckets_count:  [3195, 568, 163]
+default_bucket_key:  (31, 32)

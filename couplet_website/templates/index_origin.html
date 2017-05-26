@@ -1,0 +1,87 @@
+<!doctype html>
+    <html lang="en-US"> 
+    <head>
+        <!-- META TAGS -->
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>SJTU SPEECH LAB COUPLET</title>
+        <link rel='stylesheet' id='tmp-css-css'  href="{{ url_for('static', filename='style.css') }}" type='text/css' media='all' />
+
+    </head>
+
+    <body>
+
+        <!-- Start of Header -->
+        <!--
+        <div class="header-wrapper">
+            <header>
+                <div class="container">
+
+                    <div class="logo-container">
+                        <img src="/static/sjtu.png"  width="200" height="18"  alt="SJTU Speech Lab">
+
+                        <span class="tag-line"><font size="6" color="#9A8B88">SJTU SPEECH LAB COUPLET</font></span>
+                    </div>
+                
+                </div>
+            </header>
+        </div>
+        -->
+        <!-- End of Header -->
+
+        <!-- Start of Search Wrapper -->
+        <div class="search-area-wrapper" >
+            <div class="search-area container">
+                <h3 class="search-header">请输入上联</h3>
+                <p class="search-tag-line">下面提供了一些样例上联可供选择</p>
+                <form action="{{ url_for('index') }}" id="search-form" class="search-form clearfix" method="post" action="#" autocomplete="off">
+                        <input class="search-term required" type="text" id="s" name="s" placeholder="请输入上联" title="* Please enter a search term!" />
+                        <input class="search-btn" type="submit" value="对联" />
+                        <div id="search-error-container"></div>
+                </form>
+            </div>
+        </div>
+        <!-- End of Search Wrapper -->
+
+        <!-- Start of Page Container -->
+        <div class="page-container">
+            <div class="container">
+                <div class="row">
+
+                    <!-- start of page content -->
+                    <div class="span8 page-content">
+
+                        <!-- Basic Home Page Template -->
+                        <div class="row separator">
+                            <section class="span4 articles-list">
+                                <h3><b>可选上联</b></h3>
+                                <ul class="articles">
+                                {% for entry in shanglian %}
+                                <li><font size="4" color="#9A8B88">{{ entry }}</font></l1>
+                                {% else %}
+                                <li><em>暂无对联</em>
+                                {% endfor %}
+                                </ul>
+                            </section>
+
+                            <section class="span4 articles-list">
+                                <h3><b>上联：</b>{{ data }}</h3>
+                                <ul class="articles">
+                                {% for entry in xialian %}
+                                <li><font size="4" color="#9A8B88">{{ entry }}</font></l1>
+                                {% else %}
+                                <li><em>暂无对联</em>
+                                {% endfor %}
+                                </ul>
+                            </section>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+
+

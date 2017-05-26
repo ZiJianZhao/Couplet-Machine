@@ -1,0 +1,85 @@
+<!doctype html>
+    <html lang="en-US"> 
+    <head>
+        <!-- META TAGS -->
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>SJTU SPEECH LAB COUPLET</title>
+        <link rel='stylesheet' id='style-css-css'  href="{{ url_for('static', filename='style.css') }}" type='text/css' media='all' />
+        
+        <script type="text/javascript">
+            function post(string) {
+                /*
+                method = "post"; 
+                path = "{{ url_for('index') }}";
+                var form = document.createElement("form");
+                form.setAttribute("method", method);
+                form.setAttribute("action", path);
+                form.setAttribute("id", 'fm');
+                form.setAttribute("style", 'display:none');
+                //form.setAttribute('visibility ', 'hidden');
+                var hiddenField = document.createElement("input");
+                hiddenField.setAttribute("type", "text");
+                hiddenField.setAttribute("name", 's');
+                hiddenField.setAttribute("value", string);
+                hiddenField.setAttribute("style", 'display:none');
+                //hiddenField.setAttribute('visibility ', 'hidden');
+                form.appendChild(hiddenField);
+                document.body.appendChild(form);*/
+                document.getElementById('s').setAttribute("value",string);
+                document.getElementById("search-form").submit();
+
+            }
+        </script>
+
+    </head>
+
+    <body>
+
+        <!-- Start of Search Wrapper -->
+        <div class="search-area-wrapper">
+            <div class="search-area wrapcontainer">
+                <p class="search-header">请输入上联</p>
+                <p class="search-tag-line">下面提供了一些样例上联可供选择</p>
+                <form action="{{ url_for('index') }}" id="search-form" class="search-form clearfix" method="post" action="#" autocomplete="off" >
+                        <input class="search-term" type="text" id="s" name="s" placeholder="请输入上联"  title="* Please enter a search term!" />
+                        <input class="search-btn" type="submit" value="对联" />
+                        <div id="search-error-container"></div>
+                </form>
+            </div>
+        </div>
+        <!-- End of Search Wrapper -->
+
+        <!-- Start of Page Container -->
+        <div class='content'>
+            <div class="container">
+                <div id="optional-couplets-list">
+                    <p><font id='list-head' size="5" color="#9A8B88">示例上联</font></p>
+                    <ul class="articles">
+                    {% for entry in shanglian %}
+                    <li><font size="4" color="#9A8B88">
+                    <a class='shanglian' onclick="post('{{entry}}')">
+                    {{ entry }}
+                    </a></font></l1>
+                    {% else %}
+                    <li><em>暂无对联</em>
+                    {% endfor %}
+                    </ul>
+                </div>
+
+                <div id="result-couplets-list">
+                    <!-- 上联：{{ data }}-->
+                    <p><font id='list-head' size="5" color="#9A8B88">上联：{{ data }}</font></p>
+                    <ul class="articles">
+                    {% for entry in xialian %}
+                    <li><font size="4" color="#9A8B88">{{ entry }}</font></l1>
+                    {% else %}
+                    <li><em>暂无对联</em>
+                    {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

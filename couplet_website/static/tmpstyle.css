@@ -1,0 +1,345 @@
+body {
+  margin: 0;
+  font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  line-height: 22px;
+  color: #6f7579;
+  background-color: white;
+}
+
+.container {
+  width: 940px;
+}
+/* here the container size is controled*/
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  *zoom: 1;
+}
+
+.container:before, .container:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.container:after {
+  clear: both;
+}
+.container {
+  width: 940px;
+}
+
+img {
+  /* Responsive images (ensure images don't scale beyond their parents) */
+  max-width: 100%;
+  /* Part 1: Set a maxium relative to the parent */
+  width: auto\9;
+  /* IE7-8 need help adjusting responsive images */
+  height: auto;
+  /* Part 2: Scale the height according to the width, otherwise you get stretching */
+  vertical-align: middle;
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+}
+
+.row {
+  margin-left: -20px;
+  *zoom: 1;
+}
+.row:before, .row:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.row:after {
+  clear: both;
+}
+
+[class*="span"] {
+  float: left;
+  min-height: 1px;
+  margin-left: 20px;
+}
+/*
+.span8 {
+  width: 620px;
+}
+
+[class*="span"] {
+  display: block;
+  width: 100%;
+  min-height: 32px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  float: left;
+  margin-left: 2.12766%;
+  *margin-left: 2.07447%;
+}
+[class*="span"]:first-child {
+  margin-left: 0;
+}
+
+[class*="span"] + [class*="span"] {
+  margin-left: 2.12766%;
+}
+
+[class*="span"].hide,
+.row-fluid [class*="span"].hide {
+  display: none;
+}
+
+[class*="span"].pull-right,
+.row-fluid [class*="span"].pull-right {
+  float: right;
+}
+
+[class*="span"] + [class*="span"] {
+  margin-left: 20px;
+}
+*/
+/*
+.container {
+  width: auto;
+}*/
+
+/* Header - Logo and Nav ---------------------------------------------------------------------------------------------*/
+.header-wrapper {
+  background-color: #3b4348;
+  width: 100%;
+  height: auto;
+}
+.header-wrapper .container {
+  position: relative;
+  min-height: 60px;
+  height: auto !important;
+  height: 60px;
+}
+
+.logo-container {
+  padding: 19px 0;
+}
+.logo-container img {
+  margin-right: 10px;
+}
+
+.lt-ie9 .logo-container {
+  width: 450px;
+}
+
+span.tag-line {
+  color: #818a90;
+  font-size: 50px;
+  position: relative;
+  top: 2px;
+}
+
+
+/* Header - Search ---------------------------------------------------------------------------------------------------*/
+.search-area-wrapper {
+  background: #353b65 url("main-bg.jpg") center top no-repeat;
+  background-size: 100%;
+  min-height: 279px;
+  height: auto !important;
+  height: 279px;
+}
+.search-area-wrapper .search-area {
+  padding: 50px 0;
+}
+
+h3.search-header {
+  font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 36px;
+  color: #fff;
+  text-align: center;
+}
+
+p.search-tag-line {
+  font-family: "Droid Serif", serif;
+  font-style: italic;
+  font-size: 18px;
+  line-height: 28px;
+  color: #fff;
+  text-align: center;
+}
+
+form.search-form {
+  margin: 40px 0 0;
+  text-align: center;
+}
+form.search-form .input-common, form.search-form input.search-term, form.search-form input.search-btn {
+  font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  box-shadow: none;
+  border-radius: 0;
+  display: inline-block;
+  border: none;
+  vertical-align: bottom;
+}
+form.search-form input.search-term {
+  font-size: 14px;
+  height: 24px;
+  line-height: 24px;
+  padding: 12px;
+  width: 72%;
+  color: #858c91;
+  margin-right: 10px;
+  margin-bottom: 0;
+}
+form.search-form input.search-term.loading {
+  background-image: url("../images/search-loader.gif");
+  background-repeat: no-repeat;
+  background-position: 98% 50%;
+}
+form.search-form input.search-btn {
+  background-color: #3f4b55;
+  font-size: 14px;
+  line-height: 19px;
+  font-weight: 600;
+  padding: 14px 30px 15px;
+  color: #fff;
+}
+form.search-form input.search-btn:hover {
+  background-color: #4b5760;
+}
+
+#search-error-container label {
+  color: #fff;
+  padding: 5px;
+  font-size: 14px;
+}
+
+.lt-ie8 form.search-form input.search-btn {
+  padding-top: 12px;
+  padding-bottom: 13px;
+}
+
+/* Page - Container --------------------------------------------------------------------------------------------------*/
+.page-container {
+  width: 100%;
+}
+.page-container > .container {
+  padding: 40px 35px;
+  background-color: #fff;
+}
+
+/* Home --------------------------------------------------------------------------------------------------------------*/
+.row.separator {
+  margin-bottom: 10px;
+}
+
+/* Articles List Widget ----------------------------------------------------------------------------------------------*/
+.articles-list {
+  margin-bottom: 20px;
+}
+.articles-list > h3 {
+  font-weight: 600;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+.articles-list > h3 span {
+  color: #6f7579;
+  font-size: 16px;
+}
+.articles-list > h3 a {
+  color: #3b4348;
+}
+.articles-list > h3 a:hover {
+  color: #395996;
+}
+
+ul.articles {
+  list-style: none;
+  margin: 0;
+}
+
+
+/*------------------------------------------------------------------------------------------------------------------- */
+/* CUSTOM RESPONSIVE CSS -------------------------------------------------------------------------------------------- */
+/*------------------------------------------------------------------------------------------------------------------- */
+/*------------------------------------------------------------------------------------------------------------------- */
+/* Responsive: Tablet to desktop ------------------------------------------------------------------------------------ */
+/*------------------------------------------------------------------------------------------------------------------- */
+@media (min-width: 768px) and (max-width: 979px) {
+  .search-area-wrapper {
+    background-size: auto;
+  }
+
+  ul.articles {
+    padding-bottom: 20px;
+  }
+
+  /* Custom Padding Adjustment For Desktop */
+  .page-container > .container {
+    padding: 40px 20px;
+  }
+}
+/*------------------------------------------------------------------------------------------------------------------- */
+/* Responsive: Header for devices below desktop --------------------------------------------------------------------- */
+/*------------------------------------------------------------------------------------------------------------------- */
+@media (max-width: 979px) {
+  /* logo */
+  .logo-container {
+    text-align: center;
+    padding: 10px 0;
+  }
+  .logo-container img {
+    display: block;
+    margin: 10px auto 5px;
+  }
+
+  span.tag-line {
+    color: #818a90;
+    font-size: 12px;
+    display: block;
+    text-align: center;
+  }
+}
+/*------------------------------------------------------------------------------------------------------------------- */
+/* Responsive: Landscape phone to desktop/tablet -------------------------------------------------------------------- */
+/*------------------------------------------------------------------------------------------------------------------- */
+@media (max-width: 767px) {
+
+  /* Search Area */
+  .search-area-wrapper {
+    background-size: auto;
+    min-height: 240px;
+    height: auto !important;
+    height: 240px;
+  }
+  .search-area-wrapper .search-area {
+    padding: 20px 0;
+  }
+  .search-area-wrapper h3.search-header {
+    font-size: 30px;
+    padding: 0 15px;
+  }
+  .search-area-wrapper p.search-tag-line {
+    padding: 0 15px;
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .search-area-wrapper form.search-form input.search-term {
+    width: 60%;
+  }
+}
+/*------------------------------------------------------------------------------------------------------------------- */
+/* Responsive: Portrait Phones -------------------------------------------------------------------------------------- */
+/*------------------------------------------------------------------------------------------------------------------- */
+@media (max-width: 480px) {
+  /* Search Area */
+  .search-area-wrapper form.search-form input.search-term {
+    width: 80%;
+    display: block;
+    margin: 0 auto 10px;
+  }
+  .search-area-wrapper form.search-form input.search-btn {
+    display: block;
+    margin: 0 auto;
+  }
+
+  ul.articles {
+    padding-bottom: 20px;
+  }
+
+}

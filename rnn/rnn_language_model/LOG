@@ -1,0 +1,8 @@
+Text2id Example:
+[u'aer', u'banknote', u'berlitz', u'calloway', u'centrust', u'cluett', u'fromstein', u'gitano', u'guterman', u'hydro-quebec', u'ipo', u'kia', u'memotec', u'mlx', u'nahb', u'punts', u'rake', u'regatta', u'rubens', u'sim', u'snack-food', u'ssangyong', u'swapo', u'wachter'] [9971, 9972, 9973, 9975, 9976, 9977, 9981, 9982, 9983, 9984, 9985, 9987, 9988, 9989, 9990, 9992, 9993, 9994, 9995, 9996, 9997, 9998, 9999, 10000, 1]
+Text2id Example:
+[u'consumers', u'may', u'want', u'to', u'move', u'their', u'telephones', u'a', u'little', u'closer', u'to', u'the', u'tv', u'set'] [1133, 94, 359, 6, 330, 52, 9837, 7, 327, 2477, 6, 3, 663, 389, 1]
+buckets:  [37, 19, 27, 82, 11]
+buckets_count:  [ 7677 12584 11852  2672  7283]
+buckets:  [19, 74, 26, 12, 35]
+buckets_count:  [892 286 853 721 618]

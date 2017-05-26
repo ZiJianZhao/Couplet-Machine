@@ -1,0 +1,213 @@
+Building prefix dict from the default dictionary ...
+Dumping model to file cache /tmp/210809.1.GTX970.q/jieba.cache
+Loading model cost 1.890 seconds.
+Prefix dict has been built succesfully.
+/slfs1/users/zjz17/anaconda2/lib/python2.7/site-packages/pypinyin/core.py:300: DeprecationWarning: "phrases_pinyin" is deprecated. Use "phrase_pinyin" instead
+  '"phrases_pinyin" is deprecated. Use "phrase_pinyin" instead'
+Epoch[0] Batch [233]	Speed: 364.54 samples/sec	Train-PerplexityWithoutExp=5.419129
+Epoch[0] Batch [466]	Speed: 370.67 samples/sec	Train-PerplexityWithoutExp=4.729700
+Epoch[0] Batch [699]	Speed: 368.36 samples/sec	Train-PerplexityWithoutExp=4.516139
+Epoch[0] Batch [932]	Speed: 354.70 samples/sec	Train-PerplexityWithoutExp=4.353048
+Epoch[0] Batch [1165]	Speed: 364.57 samples/sec	Train-PerplexityWithoutExp=4.204832
+Epoch[0] Batch [1398]	Speed: 353.06 samples/sec	Train-PerplexityWithoutExp=4.117839
+Epoch[0] Batch [1631]	Speed: 361.00 samples/sec	Train-PerplexityWithoutExp=4.042811
+Epoch[0] Batch [1864]	Speed: 351.90 samples/sec	Train-PerplexityWithoutExp=4.022568
+Epoch[0] Batch [2097]	Speed: 350.06 samples/sec	Train-PerplexityWithoutExp=3.983092
+Epoch[0] Train-PerplexityWithoutExp=3.839629
+Epoch[0] Time cost=207.090
+Saved checkpoint to "view_params/couplet-0001.params"
+Epoch[0] Validation-PerplexityWithoutExp=3.874800
+Epoch[1] Batch [233]	Speed: 345.27 samples/sec	Train-PerplexityWithoutExp=3.491635
+Epoch[1] Batch [466]	Speed: 340.07 samples/sec	Train-PerplexityWithoutExp=3.495655
+Epoch[1] Batch [699]	Speed: 366.37 samples/sec	Train-PerplexityWithoutExp=3.473048
+Epoch[1] Batch [932]	Speed: 342.90 samples/sec	Train-PerplexityWithoutExp=3.445613
+Epoch[1] Batch [1165]	Speed: 369.17 samples/sec	Train-PerplexityWithoutExp=3.434708
+Epoch[1] Batch [1398]	Speed: 328.93 samples/sec	Train-PerplexityWithoutExp=3.427672
+Epoch[1] Batch [1631]	Speed: 356.93 samples/sec	Train-PerplexityWithoutExp=3.430755
+Epoch[1] Batch [1864]	Speed: 381.34 samples/sec	Train-PerplexityWithoutExp=3.369061
+Epoch[1] Batch [2097]	Speed: 331.30 samples/sec	Train-PerplexityWithoutExp=3.413712
+Epoch[1] Train-PerplexityWithoutExp=3.392030
+Epoch[1] Time cost=211.862
+Saved checkpoint to "view_params/couplet-0002.params"
+Epoch[1] Validation-PerplexityWithoutExp=3.688377
+Epoch[2] Batch [233]	Speed: 374.27 samples/sec	Train-PerplexityWithoutExp=2.545406
+Epoch[2] Batch [466]	Speed: 377.79 samples/sec	Train-PerplexityWithoutExp=2.580561
+Epoch[2] Batch [699]	Speed: 363.07 samples/sec	Train-PerplexityWithoutExp=2.658734
+Epoch[2] Batch [932]	Speed: 352.27 samples/sec	Train-PerplexityWithoutExp=2.693540
+Epoch[2] Batch [1165]	Speed: 333.72 samples/sec	Train-PerplexityWithoutExp=2.720826
+Epoch[2] Batch [1398]	Speed: 362.80 samples/sec	Train-PerplexityWithoutExp=2.731218
+Epoch[2] Batch [1631]	Speed: 353.49 samples/sec	Train-PerplexityWithoutExp=2.757873
+Epoch[2] Batch [1864]	Speed: 350.23 samples/sec	Train-PerplexityWithoutExp=2.774066
+Epoch[2] Batch [2097]	Speed: 358.44 samples/sec	Train-PerplexityWithoutExp=2.763591
+Epoch[2] Train-PerplexityWithoutExp=2.808026
+Epoch[2] Time cost=208.791
+Saved checkpoint to "view_params/couplet-0003.params"
+Epoch[2] Validation-PerplexityWithoutExp=3.742996
+Epoch[3] Batch [233]	Speed: 364.27 samples/sec	Train-PerplexityWithoutExp=1.667128
+Epoch[3] Batch [466]	Speed: 359.46 samples/sec	Train-PerplexityWithoutExp=1.692592
+Epoch[3] Batch [699]	Speed: 354.99 samples/sec	Train-PerplexityWithoutExp=1.791461
+Epoch[3] Batch [932]	Speed: 358.07 samples/sec	Train-PerplexityWithoutExp=1.837452
+Epoch[3] Batch [1165]	Speed: 349.79 samples/sec	Train-PerplexityWithoutExp=1.936294
+Epoch[3] Batch [1398]	Speed: 352.81 samples/sec	Train-PerplexityWithoutExp=1.969150
+Epoch[3] Batch [1631]	Speed: 355.79 samples/sec	Train-PerplexityWithoutExp=2.025812
+Epoch[3] Batch [1864]	Speed: 353.84 samples/sec	Train-PerplexityWithoutExp=2.057204
+Epoch[3] Batch [2097]	Speed: 316.95 samples/sec	Train-PerplexityWithoutExp=2.094643
+Epoch[3] Train-PerplexityWithoutExp=2.100391
+Epoch[3] Time cost=214.702
+Saved checkpoint to "view_params/couplet-0004.params"
+Epoch[3] Validation-PerplexityWithoutExp=4.020590
+Epoch[4] Batch [233]	Speed: 296.82 samples/sec	Train-PerplexityWithoutExp=0.986346
+Epoch[4] Batch [466]	Speed: 323.91 samples/sec	Train-PerplexityWithoutExp=1.016797
+Epoch[4] Batch [699]	Speed: 310.01 samples/sec	Train-PerplexityWithoutExp=1.083971
+Epoch[4] Batch [932]	Speed: 325.90 samples/sec	Train-PerplexityWithoutExp=1.138763
+Epoch[4] Batch [1165]	Speed: 329.64 samples/sec	Train-PerplexityWithoutExp=1.214210
+Epoch[4] Batch [1398]	Speed: 333.31 samples/sec	Train-PerplexityWithoutExp=1.313028
+Epoch[4] Batch [1631]	Speed: 318.25 samples/sec	Train-PerplexityWithoutExp=1.381950
+Epoch[4] Batch [1864]	Speed: 347.13 samples/sec	Train-PerplexityWithoutExp=1.425528
+Epoch[4] Batch [2097]	Speed: 362.67 samples/sec	Train-PerplexityWithoutExp=1.488535
+Epoch[4] Train-PerplexityWithoutExp=1.557373
+Epoch[4] Time cost=225.996
+Saved checkpoint to "view_params/couplet-0005.params"
+Epoch[4] Validation-PerplexityWithoutExp=4.405284
+Building prefix dict from the default dictionary ...
+Dumping model to file cache /tmp/210810.1.GTX970.q/jieba.cache
+Loading model cost 1.921 seconds.
+Prefix dict has been built succesfully.
+/slfs1/users/zjz17/anaconda2/lib/python2.7/site-packages/pypinyin/core.py:300: DeprecationWarning: "phrases_pinyin" is deprecated. Use "phrase_pinyin" instead
+  '"phrases_pinyin" is deprecated. Use "phrase_pinyin" instead'
+Epoch[0] Batch [233]	Speed: 395.62 samples/sec	Train-PerplexityWithoutExp=5.560926
+Epoch[0] Batch [466]	Speed: 406.48 samples/sec	Train-PerplexityWithoutExp=4.859319
+Epoch[0] Batch [699]	Speed: 404.76 samples/sec	Train-PerplexityWithoutExp=4.646160
+Epoch[0] Batch [932]	Speed: 389.79 samples/sec	Train-PerplexityWithoutExp=4.479342
+Epoch[0] Batch [1165]	Speed: 404.50 samples/sec	Train-PerplexityWithoutExp=4.335816
+Epoch[0] Batch [1398]	Speed: 384.67 samples/sec	Train-PerplexityWithoutExp=4.245213
+Epoch[0] Batch [1631]	Speed: 392.05 samples/sec	Train-PerplexityWithoutExp=4.172008
+Epoch[0] Batch [1864]	Speed: 386.32 samples/sec	Train-PerplexityWithoutExp=4.150253
+Epoch[0] Batch [2097]	Speed: 383.77 samples/sec	Train-PerplexityWithoutExp=4.108350
+Epoch[0] Train-PerplexityWithoutExp=3.960680
+Epoch[0] Time cost=188.772
+Saved checkpoint to "label_params/couplet-0001.params"
+Epoch[0] Validation-PerplexityWithoutExp=3.984768
+Epoch[1] Batch [233]	Speed: 380.61 samples/sec	Train-PerplexityWithoutExp=3.672008
+Epoch[1] Batch [466]	Speed: 371.56 samples/sec	Train-PerplexityWithoutExp=3.676997
+Epoch[1] Batch [699]	Speed: 396.08 samples/sec	Train-PerplexityWithoutExp=3.637641
+Epoch[1] Batch [932]	Speed: 394.60 samples/sec	Train-PerplexityWithoutExp=3.610126
+Epoch[1] Batch [1165]	Speed: 384.56 samples/sec	Train-PerplexityWithoutExp=3.596041
+Epoch[1] Batch [1398]	Speed: 387.53 samples/sec	Train-PerplexityWithoutExp=3.591894
+Epoch[1] Batch [1631]	Speed: 376.54 samples/sec	Train-PerplexityWithoutExp=3.589020
+Epoch[1] Batch [1864]	Speed: 413.35 samples/sec	Train-PerplexityWithoutExp=3.515100
+Epoch[1] Batch [2097]	Speed: 381.49 samples/sec	Train-PerplexityWithoutExp=3.558561
+Epoch[1] Train-PerplexityWithoutExp=3.535772
+Epoch[1] Time cost=192.400
+Saved checkpoint to "label_params/couplet-0002.params"
+Epoch[1] Validation-PerplexityWithoutExp=3.755466
+Epoch[2] Batch [233]	Speed: 404.83 samples/sec	Train-PerplexityWithoutExp=2.780373
+Epoch[2] Batch [466]	Speed: 393.45 samples/sec	Train-PerplexityWithoutExp=2.806626
+Epoch[2] Batch [699]	Speed: 387.61 samples/sec	Train-PerplexityWithoutExp=2.889773
+Epoch[2] Batch [932]	Speed: 385.44 samples/sec	Train-PerplexityWithoutExp=2.906335
+Epoch[2] Batch [1165]	Speed: 404.70 samples/sec	Train-PerplexityWithoutExp=2.935745
+Epoch[2] Batch [1398]	Speed: 390.46 samples/sec	Train-PerplexityWithoutExp=2.945125
+Epoch[2] Batch [1631]	Speed: 384.97 samples/sec	Train-PerplexityWithoutExp=2.962783
+Epoch[2] Batch [1864]	Speed: 385.06 samples/sec	Train-PerplexityWithoutExp=2.987658
+Epoch[2] Batch [2097]	Speed: 399.40 samples/sec	Train-PerplexityWithoutExp=2.959683
+Epoch[2] Train-PerplexityWithoutExp=3.002874
+Epoch[2] Time cost=190.265
+Saved checkpoint to "label_params/couplet-0003.params"
+Epoch[2] Validation-PerplexityWithoutExp=3.772727
+Epoch[3] Batch [233]	Speed: 406.04 samples/sec	Train-PerplexityWithoutExp=1.939277
+Epoch[3] Batch [466]	Speed: 387.28 samples/sec	Train-PerplexityWithoutExp=1.964124
+Epoch[3] Batch [699]	Speed: 383.88 samples/sec	Train-PerplexityWithoutExp=2.068210
+Epoch[3] Batch [932]	Speed: 384.13 samples/sec	Train-PerplexityWithoutExp=2.110350
+Epoch[3] Batch [1165]	Speed: 343.63 samples/sec	Train-PerplexityWithoutExp=2.190069
+Epoch[3] Batch [1398]	Speed: 356.31 samples/sec	Train-PerplexityWithoutExp=2.214523
+Epoch[3] Batch [1631]	Speed: 363.55 samples/sec	Train-PerplexityWithoutExp=2.261341
+Epoch[3] Batch [1864]	Speed: 360.82 samples/sec	Train-PerplexityWithoutExp=2.310357
+Epoch[3] Batch [2097]	Speed: 345.45 samples/sec	Train-PerplexityWithoutExp=2.326430
+Epoch[3] Train-PerplexityWithoutExp=2.334461
+Epoch[3] Time cost=202.717
+Saved checkpoint to "label_params/couplet-0004.params"
+Epoch[3] Validation-PerplexityWithoutExp=3.982768
+Epoch[4] Batch [233]	Speed: 329.73 samples/sec	Train-PerplexityWithoutExp=1.211122
+Epoch[4] Batch [466]	Speed: 332.46 samples/sec	Train-PerplexityWithoutExp=1.248508
+Epoch[4] Batch [699]	Speed: 349.91 samples/sec	Train-PerplexityWithoutExp=1.325039
+Epoch[4] Batch [932]	Speed: 372.67 samples/sec	Train-PerplexityWithoutExp=1.388024
+Epoch[4] Batch [1165]	Speed: 393.87 samples/sec	Train-PerplexityWithoutExp=1.453662
+Epoch[4] Batch [1398]	Speed: 413.22 samples/sec	Train-PerplexityWithoutExp=1.558212
+Epoch[4] Batch [1631]	Speed: 389.63 samples/sec	Train-PerplexityWithoutExp=1.621146
+Epoch[4] Batch [1864]	Speed: 395.93 samples/sec	Train-PerplexityWithoutExp=1.648821
+Epoch[4] Batch [2097]	Speed: 388.39 samples/sec	Train-PerplexityWithoutExp=1.717703
+Epoch[4] Train-PerplexityWithoutExp=1.771867
+Epoch[4] Time cost=199.664
+Saved checkpoint to "label_params/couplet-0005.params"
+Epoch[4] Validation-PerplexityWithoutExp=4.349870
+Building prefix dict from the default dictionary ...
+Dumping model to file cache /tmp/210812.1.GTX970.q/jieba.cache
+Loading model cost 1.962 seconds.
+Prefix dict has been built succesfully.
+/slfs1/users/zjz17/anaconda2/lib/python2.7/site-packages/pypinyin/core.py:300: DeprecationWarning: "phrases_pinyin" is deprecated. Use "phrase_pinyin" instead
+  '"phrases_pinyin" is deprecated. Use "phrase_pinyin" instead'
+Epoch[0] Batch [233]	Speed: 381.34 samples/sec	Train-PerplexityWithoutExp=5.524208
+Epoch[0] Batch [466]	Speed: 391.02 samples/sec	Train-PerplexityWithoutExp=4.784311
+Epoch[0] Batch [699]	Speed: 381.44 samples/sec	Train-PerplexityWithoutExp=4.555501
+Epoch[0] Batch [932]	Speed: 366.88 samples/sec	Train-PerplexityWithoutExp=4.379593
+Epoch[0] Batch [1165]	Speed: 376.71 samples/sec	Train-PerplexityWithoutExp=4.227620
+Epoch[0] Batch [1398]	Speed: 369.03 samples/sec	Train-PerplexityWithoutExp=4.134919
+Epoch[0] Batch [1631]	Speed: 376.05 samples/sec	Train-PerplexityWithoutExp=4.057498
+Epoch[0] Batch [1864]	Speed: 363.63 samples/sec	Train-PerplexityWithoutExp=4.036125
+Epoch[0] Batch [2097]	Speed: 364.14 samples/sec	Train-PerplexityWithoutExp=3.990662
+Epoch[0] Train-PerplexityWithoutExp=3.847535
+Epoch[0] Time cost=198.781
+Saved checkpoint to "view_params/couplet-0001.params"
+Epoch[0] Validation-PerplexityWithoutExp=3.884262
+Epoch[1] Batch [233]	Speed: 364.06 samples/sec	Train-PerplexityWithoutExp=3.513259
+Epoch[1] Batch [466]	Speed: 352.19 samples/sec	Train-PerplexityWithoutExp=3.511838
+Epoch[1] Batch [699]	Speed: 379.04 samples/sec	Train-PerplexityWithoutExp=3.486132
+Epoch[1] Batch [932]	Speed: 369.44 samples/sec	Train-PerplexityWithoutExp=3.454118
+Epoch[1] Batch [1165]	Speed: 374.69 samples/sec	Train-PerplexityWithoutExp=3.444555
+Epoch[1] Batch [1398]	Speed: 369.20 samples/sec	Train-PerplexityWithoutExp=3.442781
+Epoch[1] Batch [1631]	Speed: 367.29 samples/sec	Train-PerplexityWithoutExp=3.440277
+Epoch[1] Batch [1864]	Speed: 396.73 samples/sec	Train-PerplexityWithoutExp=3.378198
+Epoch[1] Batch [2097]	Speed: 376.63 samples/sec	Train-PerplexityWithoutExp=3.419207
+Epoch[1] Train-PerplexityWithoutExp=3.399648
+Epoch[1] Time cost=200.522
+Saved checkpoint to "view_params/couplet-0002.params"
+Epoch[1] Validation-PerplexityWithoutExp=3.677206
+Epoch[2] Batch [233]	Speed: 388.21 samples/sec	Train-PerplexityWithoutExp=2.566551
+Epoch[2] Batch [466]	Speed: 387.02 samples/sec	Train-PerplexityWithoutExp=2.596721
+Epoch[2] Batch [699]	Speed: 375.94 samples/sec	Train-PerplexityWithoutExp=2.676122
+Epoch[2] Batch [932]	Speed: 371.47 samples/sec	Train-PerplexityWithoutExp=2.700979
+Epoch[2] Batch [1165]	Speed: 385.43 samples/sec	Train-PerplexityWithoutExp=2.728938
+Epoch[2] Batch [1398]	Speed: 380.14 samples/sec	Train-PerplexityWithoutExp=2.746176
+Epoch[2] Batch [1631]	Speed: 372.49 samples/sec	Train-PerplexityWithoutExp=2.766399
+Epoch[2] Batch [1864]	Speed: 364.72 samples/sec	Train-PerplexityWithoutExp=2.791286
+Epoch[2] Batch [2097]	Speed: 377.35 samples/sec	Train-PerplexityWithoutExp=2.767061
+Epoch[2] Train-PerplexityWithoutExp=2.812980
+Epoch[2] Time cost=198.131
+Saved checkpoint to "view_params/couplet-0003.params"
+Epoch[2] Validation-PerplexityWithoutExp=3.729261
+Epoch[3] Batch [233]	Speed: 381.90 samples/sec	Train-PerplexityWithoutExp=1.683483
+Epoch[3] Batch [466]	Speed: 328.64 samples/sec	Train-PerplexityWithoutExp=1.702650
+Epoch[3] Batch [699]	Speed: 315.94 samples/sec	Train-PerplexityWithoutExp=1.808237
+Epoch[3] Batch [932]	Speed: 339.55 samples/sec	Train-PerplexityWithoutExp=1.849670
+Epoch[3] Batch [1165]	Speed: 320.40 samples/sec	Train-PerplexityWithoutExp=1.941494
+Epoch[3] Batch [1398]	Speed: 320.11 samples/sec	Train-PerplexityWithoutExp=1.974082
+Epoch[3] Batch [1631]	Speed: 343.39 samples/sec	Train-PerplexityWithoutExp=2.026938
+Epoch[3] Batch [1864]	Speed: 343.02 samples/sec	Train-PerplexityWithoutExp=2.069499
+Epoch[3] Batch [2097]	Speed: 351.79 samples/sec	Train-PerplexityWithoutExp=2.095438
+Epoch[3] Train-PerplexityWithoutExp=2.103939
+Epoch[3] Time cost=220.587
+Saved checkpoint to "view_params/couplet-0004.params"
+Epoch[3] Validation-PerplexityWithoutExp=4.007406
+Epoch[4] Batch [233]	Speed: 326.22 samples/sec	Train-PerplexityWithoutExp=0.991186
+Epoch[4] Batch [466]	Speed: 393.11 samples/sec	Train-PerplexityWithoutExp=1.023091
+Epoch[4] Batch [699]	Speed: 379.00 samples/sec	Train-PerplexityWithoutExp=1.091269
+Epoch[4] Batch [932]	Speed: 372.16 samples/sec	Train-PerplexityWithoutExp=1.146482
+Epoch[4] Batch [1165]	Speed: 375.39 samples/sec	Train-PerplexityWithoutExp=1.211243
+Epoch[4] Batch [1398]	Speed: 396.04 samples/sec	Train-PerplexityWithoutExp=1.304489
+Epoch[4] Batch [1631]	Speed: 370.82 samples/sec	Train-PerplexityWithoutExp=1.376860
+Epoch[4] Batch [1864]	Speed: 382.74 samples/sec	Train-PerplexityWithoutExp=1.426685
+Epoch[4] Batch [2097]	Speed: 377.88 samples/sec	Train-PerplexityWithoutExp=1.490727
+Epoch[4] Train-PerplexityWithoutExp=1.556375
+Epoch[4] Time cost=199.435
+Saved checkpoint to "view_params/couplet-0005.params"
+Epoch[4] Validation-PerplexityWithoutExp=4.373832

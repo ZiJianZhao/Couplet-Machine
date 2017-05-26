@@ -1,0 +1,176 @@
+/* Body - Tag - Background */
+body {
+  margin: 0;
+  font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  line-height: 22px;
+  color: #6f7579;
+  background-color: white;
+}
+
+img {
+  /* Responsive images (ensure images don't scale beyond their parents) */
+  max-width: 100%;
+  /* Part 1: Set a maxium relative to the parent */
+  width: auto\9;
+  /* IE7-8 need help adjusting responsive images */
+  height: auto;
+  /* Part 2: Scale the height according to the width, otherwise you get stretching */
+  vertical-align: middle;
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+}
+
+
+/* Header - Logo and Nav*/
+.header-wrapper {
+  background-color: #3b4348;
+  width: 100%;
+  height: auto;
+}
+.header-wrapper .container {
+  position: relative;
+  min-height: 60px;
+  height: auto !important;
+  height: 60px;
+}
+
+/*
+.logo-container {
+  padding: 19px 0;
+}
+.logo-container img {
+  margin-right: 10px;
+}
+
+.lt-ie9 .logo-container {
+  width: 450px;
+}
+
+span.tag-line {
+  color: #818a90;
+  font-size: 50px;
+  position: relative;
+  top: 2px;
+}
+*/
+
+/* Header - Search */
+
+.search-area-wrapper {
+  background: #353b65 url("55.png") center top no-repeat;
+  background-size: cover;
+  background-color: white;
+  /*min-height: 279px;
+  height: auto;
+  /*height: auto !important;
+  /*height: 279px;*/
+}
+
+.search-area-wrapper .search-area {
+  padding: 50px 0;
+}
+
+p.search-header {
+  font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 36px;
+  color: #000;/*#fff;*/
+  text-align: center;
+}
+
+p.search-tag-line {
+  font-family: "Droid Serif", serif;
+  font-style: italic;
+  font-size: 18px;
+  line-height: 28px;
+  color: #000;/*#fff;*/
+  text-align: center;
+}
+
+form.search-form {
+  margin: 40px 0 0;
+  text-align: center;
+}
+
+form.search-form input.search-term, form.search-form input.search-btn {
+  font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  box-shadow: none;
+  border-radius: 0;
+  display: inline-block;
+  border: none;
+  vertical-align: bottom;
+}
+
+form.search-form input.search-term {
+  font-size: 14px;
+  height: 24px;
+  line-height: 24px;
+  padding: 12px;
+  width: 50%;/*72%;*/
+  color: #858c91;
+  margin-right: 10px;
+  margin-bottom: 0;
+}
+
+form.search-form input.search-btn {
+  background-color: #3f4b55;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 600;
+  padding: 14px 30px 15px;
+  color: #fff;
+}
+
+form.search-form input.search-btn:hover {
+  background-color: #4b5760;
+}
+
+form.search-form input.search-btn {
+  padding-top: 12px;
+  padding-bottom: 13px;
+}
+
+/* Page - Container */
+/*
+.content {
+  background: #ffffff url("44.jpg") center top no-repeat;
+  background-size: 100%;
+  min-height: 279px;
+  height: auto;
+  height: auto !important;
+  height: 279px;
+}
+
+.content .container {
+  padding: 50px 0;
+}*/
+
+.container {
+  width: 60%; /*840px;*/
+  margin-right: auto;
+  margin-left: auto;
+  *zoom: 1;
+}
+
+.shanglian:hover {
+  cursor:pointer;
+  color:#000000;
+}
+
+#optional-couplets-list {
+  width: 45%;
+  float: left;
+  border-style: none;
+}
+
+#result-couplets-list {
+  width: 45%;
+  float: right;
+  border-style: none;
+}
+
+ul.articles {
+  list-style: none;
+  margin: 0;
+}

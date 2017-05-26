@@ -1,0 +1,65 @@
+04-19 14:13:52 PM Epoch[0] Batch [87]	Speed: 516.88 samples/sec	Train-PerplexityWithoutExp=5.934677
+04-19 14:13:57 PM Epoch[0] Batch [174]	Speed: 499.45 samples/sec	Train-PerplexityWithoutExp=5.381630
+04-19 14:14:03 PM Epoch[0] Batch [261]	Speed: 500.71 samples/sec	Train-PerplexityWithoutExp=5.162512
+04-19 14:14:09 PM Epoch[0] Batch [348]	Speed: 495.25 samples/sec	Train-PerplexityWithoutExp=4.993877
+04-19 14:14:14 PM Epoch[0] Batch [435]	Speed: 528.76 samples/sec	Train-PerplexityWithoutExp=4.778304
+04-19 14:14:20 PM Epoch[0] Batch [522]	Speed: 496.16 samples/sec	Train-PerplexityWithoutExp=4.711917
+04-19 14:14:25 PM Epoch[0] Batch [609]	Speed: 497.53 samples/sec	Train-PerplexityWithoutExp=4.637742
+04-19 14:14:31 PM Epoch[0] Batch [696]	Speed: 505.67 samples/sec	Train-PerplexityWithoutExp=4.500904
+04-19 14:14:36 PM Epoch[0] Batch [783]	Speed: 528.23 samples/sec	Train-PerplexityWithoutExp=4.374514
+04-19 14:14:41 PM Epoch[0] Train-PerplexityWithoutExp=4.356908
+04-19 14:14:41 PM Epoch[0] Time cost=55.013
+04-19 14:14:43 PM Saved checkpoint to "sent_params/couplet-0001.params"
+04-19 14:14:44 PM Epoch[0] Validation-PerplexityWithoutExp=4.416843
+04-19 14:14:50 PM Epoch[1] Batch [87]	Speed: 509.34 samples/sec	Train-PerplexityWithoutExp=3.991054
+04-19 14:14:55 PM Epoch[1] Batch [174]	Speed: 502.35 samples/sec	Train-PerplexityWithoutExp=4.049664
+04-19 14:15:01 PM Epoch[1] Batch [261]	Speed: 506.83 samples/sec	Train-PerplexityWithoutExp=3.988300
+04-19 14:15:06 PM Epoch[1] Batch [348]	Speed: 480.78 samples/sec	Train-PerplexityWithoutExp=4.041787
+04-19 14:15:12 PM Epoch[1] Batch [435]	Speed: 521.45 samples/sec	Train-PerplexityWithoutExp=3.862645
+04-19 14:15:17 PM Epoch[1] Batch [522]	Speed: 484.78 samples/sec	Train-PerplexityWithoutExp=3.924996
+04-19 14:15:23 PM Epoch[1] Batch [609]	Speed: 504.43 samples/sec	Train-PerplexityWithoutExp=3.847086
+04-19 14:15:29 PM Epoch[1] Batch [696]	Speed: 501.50 samples/sec	Train-PerplexityWithoutExp=3.815172
+04-19 14:15:34 PM Epoch[1] Batch [783]	Speed: 513.63 samples/sec	Train-PerplexityWithoutExp=3.783083
+04-19 14:15:39 PM Epoch[1] Train-PerplexityWithoutExp=3.759211
+04-19 14:15:39 PM Epoch[1] Time cost=55.441
+04-19 14:15:41 PM Saved checkpoint to "sent_params/couplet-0002.params"
+04-19 14:15:42 PM Epoch[1] Validation-PerplexityWithoutExp=4.043318
+04-19 14:15:48 PM Epoch[2] Batch [87]	Speed: 507.78 samples/sec	Train-PerplexityWithoutExp=2.992495
+04-19 14:15:53 PM Epoch[2] Batch [174]	Speed: 511.02 samples/sec	Train-PerplexityWithoutExp=3.001645
+04-19 14:15:59 PM Epoch[2] Batch [261]	Speed: 498.00 samples/sec	Train-PerplexityWithoutExp=3.067327
+04-19 14:16:05 PM Epoch[2] Batch [348]	Speed: 477.92 samples/sec	Train-PerplexityWithoutExp=3.113709
+04-19 14:16:10 PM Epoch[2] Batch [435]	Speed: 488.73 samples/sec	Train-PerplexityWithoutExp=3.093693
+04-19 14:16:16 PM Epoch[2] Batch [522]	Speed: 483.49 samples/sec	Train-PerplexityWithoutExp=3.088803
+04-19 14:16:22 PM Epoch[2] Batch [609]	Speed: 487.27 samples/sec	Train-PerplexityWithoutExp=3.101730
+04-19 14:16:27 PM Epoch[2] Batch [696]	Speed: 508.40 samples/sec	Train-PerplexityWithoutExp=3.035752
+04-19 14:16:33 PM Epoch[2] Batch [783]	Speed: 502.98 samples/sec	Train-PerplexityWithoutExp=3.074515
+04-19 14:16:38 PM Epoch[2] Train-PerplexityWithoutExp=3.036818
+04-19 14:16:38 PM Epoch[2] Time cost=56.145
+04-19 14:16:40 PM Saved checkpoint to "sent_params/couplet-0003.params"
+04-19 14:16:41 PM Epoch[2] Validation-PerplexityWithoutExp=3.923314
+04-19 14:16:47 PM Epoch[3] Batch [87]	Speed: 476.93 samples/sec	Train-PerplexityWithoutExp=1.931163
+04-19 14:16:53 PM Epoch[3] Batch [174]	Speed: 483.00 samples/sec	Train-PerplexityWithoutExp=1.947067
+04-19 14:16:58 PM Epoch[3] Batch [261]	Speed: 501.54 samples/sec	Train-PerplexityWithoutExp=1.981998
+04-19 14:17:04 PM Epoch[3] Batch [348]	Speed: 500.88 samples/sec	Train-PerplexityWithoutExp=2.081682
+04-19 14:17:09 PM Epoch[3] Batch [435]	Speed: 506.49 samples/sec	Train-PerplexityWithoutExp=2.084629
+04-19 14:17:15 PM Epoch[3] Batch [522]	Speed: 472.33 samples/sec	Train-PerplexityWithoutExp=2.113775
+04-19 14:17:21 PM Epoch[3] Batch [609]	Speed: 498.20 samples/sec	Train-PerplexityWithoutExp=2.169094
+04-19 14:17:27 PM Epoch[3] Batch [696]	Speed: 489.17 samples/sec	Train-PerplexityWithoutExp=2.180643
+04-19 14:17:32 PM Epoch[3] Batch [783]	Speed: 500.95 samples/sec	Train-PerplexityWithoutExp=2.172324
+04-19 14:17:38 PM Epoch[3] Train-PerplexityWithoutExp=2.196449
+04-19 14:17:38 PM Epoch[3] Time cost=56.498
+04-19 14:17:39 PM Saved checkpoint to "sent_params/couplet-0004.params"
+04-19 14:17:40 PM Epoch[3] Validation-PerplexityWithoutExp=3.989977
+04-19 14:17:46 PM Epoch[4] Batch [87]	Speed: 490.58 samples/sec	Train-PerplexityWithoutExp=1.008453
+04-19 14:17:51 PM Epoch[4] Batch [174]	Speed: 515.19 samples/sec	Train-PerplexityWithoutExp=0.991277
+04-19 14:17:57 PM Epoch[4] Batch [261]	Speed: 479.03 samples/sec	Train-PerplexityWithoutExp=0.997151
+04-19 14:18:03 PM Epoch[4] Batch [348]	Speed: 502.14 samples/sec	Train-PerplexityWithoutExp=1.040096
+04-19 14:18:09 PM Epoch[4] Batch [435]	Speed: 468.92 samples/sec	Train-PerplexityWithoutExp=1.072297
+04-19 14:18:14 PM Epoch[4] Batch [522]	Speed: 498.19 samples/sec	Train-PerplexityWithoutExp=1.137269
+04-19 14:18:20 PM Epoch[4] Batch [609]	Speed: 502.85 samples/sec	Train-PerplexityWithoutExp=1.185967
+04-19 14:18:25 PM Epoch[4] Batch [696]	Speed: 495.41 samples/sec	Train-PerplexityWithoutExp=1.231195
+04-19 14:18:31 PM Epoch[4] Batch [783]	Speed: 483.93 samples/sec	Train-PerplexityWithoutExp=1.249776
+04-19 14:18:37 PM Epoch[4] Train-PerplexityWithoutExp=1.267703
+04-19 14:18:37 PM Epoch[4] Time cost=56.543
+04-19 14:18:39 PM Saved checkpoint to "sent_params/couplet-0005.params"
+04-19 14:18:40 PM Epoch[4] Validation-PerplexityWithoutExp=4.181381
